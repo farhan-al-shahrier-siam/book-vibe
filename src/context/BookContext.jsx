@@ -18,7 +18,7 @@ const BookProvider = ({ children }) => {
             setStoredBooks([...storedBooks, currentbook]);
             toast.success(`${currentbook.bookName} is added to mark as read`);
         }
-        console.log(storedBooks);
+        // console.log(storedBooks);
     };
 
     const handleWishList = (currentbook) => {
@@ -38,7 +38,7 @@ const BookProvider = ({ children }) => {
             setWishList([...wishlist, currentbook]);
             toast.success(`${currentbook.bookName} is added to wish list`);
         }
-        console.log(wishlist);
+        // console.log(wishlist);
     };
 
     const data = {
