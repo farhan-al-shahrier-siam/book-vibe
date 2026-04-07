@@ -1,6 +1,7 @@
 import React, { createContext, useState } from "react";
 import { toast } from "react-toastify";
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const BookContext = createContext();
 
 const BookProvider = ({ children }) => {
